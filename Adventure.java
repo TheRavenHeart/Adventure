@@ -28,8 +28,14 @@ public static Scanner sc;
             System.out.println("press 5 to grab the silver strand ");
             String strandChoice = sc.nextLine(); 
             
-            if (strandChoice.equals("1")) {
-            System.out.println("You suddenly appear in a dark, blackened world. What appears to be snow you soon find is black ash that burns away at your skin.");
-        }   
-        } 
+        if (strandChoice.equals("1")) {
+        System.out.println("You suddenly appear in a dark, blackened world. What appears to be snow falling aroung you, you soon find is a black ash that burns away at your skin. To your left is a dark cave, and to your right");
+      }
+        if (strandChoice.equals("2")) {
+        System.out.println("You suddenly appear in a lush green glade, sunlight pouring onto you, forest surronds you but you can smell something burning in the distance.");
+      }
+        if (strandChoice.equals("3")) {
+        Systen.out.println("");
+      }
+}
 }
